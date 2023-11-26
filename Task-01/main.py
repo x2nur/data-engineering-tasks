@@ -1,4 +1,3 @@
-from itertools import cycle
 from urllib.parse import urlsplit
 from zipfile import ZipFile, is_zipfile
 from pathlib import Path
@@ -7,12 +6,12 @@ import requests as req
 
 download_uris = [
     "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2018_Q4.zip",
-    # "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2019_Q1.zip",
-    # "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2019_Q2.zip",
-    # "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2019_Q3.zip",
-    # "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2019_Q4.zip",
-    # "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2020_Q1.zip",
-    # "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2220_Q1.zip",
+    "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2019_Q1.zip",
+    "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2019_Q2.zip",
+    "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2019_Q3.zip",
+    "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2019_Q4.zip",
+    "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2020_Q1.zip",
+    "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2220_Q1.zip",
 ]
 
 
