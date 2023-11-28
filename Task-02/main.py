@@ -10,6 +10,7 @@ BASE_URL = r'https://www.ncei.noaa.gov/data/local-climatological-data/access/202
 TIMESTAMP = r'2022-02-07 14:03'
 TARGET_COL = 'HourlyDryBulbTemperature'
 
+
 def download_file(uri, file_path):
     try:
         resp = requests.get(uri, stream=True)
@@ -51,7 +52,8 @@ def main():
             continue
         print()
         print(f'File: {csv_path.name}')
-        print(matched_recs)
+        # lets print the first 5 rows and the first 12 columns
+        print(matched_recs.iloc[:5, :12].T)
         print()
 
 
