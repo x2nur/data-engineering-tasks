@@ -52,7 +52,7 @@ def main():
             continue
         print()
         print(f'File: {csv_path.name}')
-        # lets print the first 5 rows and the first 12 columns
+        # let's print the first 5 rows and 12 columns
         print(matched_recs.iloc[:5, :12].T)
         print()
 
