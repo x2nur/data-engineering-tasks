@@ -2,7 +2,7 @@
 
 **This task is completed without any changes to the original requirements**
 
-### The following text is a description of the exercise from the original source ([https://github.com/danielbeach/data-engineering-practice](Exercise-1))
+### The following text is a description of the exercise from the original source ([https://github.com/danielbeach/data-engineering-practice](https://github.com/danielbeach/data-engineering-practice))
 
 In this first exercise you will practice your Python skills,
 as well as learn about a very common task ... downloading data files
